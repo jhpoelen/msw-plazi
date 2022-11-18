@@ -19,7 +19,6 @@ The json files are roughly generated via:
 
 # transform only MSW treatments into json using preston
 
-```
 preston track https://github.com/plazi/treatments-xml/archive/master.zip\
  | preston plazi-stream\
  | grep "Mammal Species of the World"\
