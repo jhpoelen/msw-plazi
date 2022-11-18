@@ -5,7 +5,7 @@ Machine readable version of Mammal Species of the World volumes as transcribed b
 
 [`methods`](#methods) / [`results`](#results) / [`summary statistics`](#summary-statistics) / [`example record`](#example-record) / [`R example`](#r-example) / [`funding`](#funding) / [`references`](#references)
 
-Physical copies of Mammal Species of the World are a valuable taxonomic resource for mammals. This repository uses Plazi digitized taxonomic treatment versions of these physical copies to generate [msw1.json](msw1.json),  and [msw2.json](hmw.json). For your convenience, the first 10 records can be found [msw1-sample.json](msw1-sample.json), [msw2-sample.json](msw2-sample.json). The json and files are derived from a Preston tracked version of Plazi's treatment bank available via https://github.com/plazi/treatments-xml.
+Physical copies of Mammal Species of the World are a valuable taxonomic resource for mammals. This repository uses Plazi digitized taxonomic treatment versions of these physical copies to generate [msw1.json](msw1.json)/[msw1.csv](msw1.csv),  and [msw2.json](msw2.json)/[msw2.csv](msw2.csv). For your convenience, the first 10 records can be found [msw1-sample.json](msw1-sample.json)/[msw1-sample.csv](msw2-sample.csv), [msw2-sample.json](msw2-sample.json)/[msw2-sample.csv](msw2-sample.csv). The json and csv files are derived from a Preston tracked version of Plazi's treatment bank available via https://github.com/plazi/treatments-xml.
 
 This work originates from the Biodiversity Data Hub working group of the CETAF Covid19 . For more information see https://globalbioticinteractions.org/covid19 .
 
@@ -39,5 +39,14 @@ cat msw.json\
  | jq --compact-output 'select(.["docOrigin"] == "Mammal Species of the World (2 nd Edition), Washington and London: Smithsonian Institution Press")'\
  > msw2.json
 ```
+
+csv files were generated using mlr via scripts like:
+
+```
+ cat msw2.json | mlr --ijson --ocsv cat > msw2.csv
+ cat msw1.json | mlr --ijson --ocsv cat > msw1.csv
+```
+
+
 
 Work in process. Please open an issue if you have questions / comments.
