@@ -47,6 +47,13 @@ csv files were generated using mlr via scripts like:
  cat msw1.json | mlr --ijson --ocsv cat > msw1.csv
 ```
 
+only including the verbatim texts extracted by Plazi - 
+
+```
+ cat msw1.json | jq --compact-output --raw-output '.["verbatimText"]' > msw1-verbatim.txt
+ cat msw2.json | jq --compact-output --raw-output '.["verbatimText"]' > msw2-verbatim.txt
+```
+
 
 
 Work in process. Please open an issue if you have questions / comments.
