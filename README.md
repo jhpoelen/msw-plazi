@@ -7,7 +7,7 @@ Machine readable version of Mammal Species of the World volumes as transcribed b
 
 Physical copies of Mammal Species of the World are a valuable taxonomic resource for mammals. This repository uses Plazi digitized taxonomic treatment versions of these physical copies to generate [msw1.json](msw1.json)/[msw1.csv](msw1.csv),  and [msw2.json](msw2.json)/[msw2.csv](msw2.csv). For your convenience, the first 10 records can be found [msw1-sample.json](msw1-sample.json)/[msw1-sample.csv](msw2-sample.csv), [msw2-sample.json](msw2-sample.json)/[msw2-sample.csv](msw2-sample.csv). The json and csv files are derived from a Preston tracked version of Plazi's treatment bank available via https://github.com/plazi/treatments-xml. For specific versions of treatments-xml see:
 
-Plazi Community. (2022). Plazi Treatments XML Archive hash://sha256/3cfd60b8b19e76d208377537835de92efdb5b945a6a71765b74ed2fe22298b42 hash://md/594923284e3eb9965b8cbad149c76cd0f (hash://sha256/3cfd60b8b19e76d208377537835de92efdb5b945a6a71765b74ed2fe22298b42) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7443343
+Plazi Community. (2022). Plazi Treatments XML Archive hash://sha256/3cfd60b8b19e76d208377537835de92efdb5b945a6a71765b74ed2fe22298b42 hash://md5/594923284e3eb9965b8cbad149c76cd0f (hash://sha256/3cfd60b8b19e76d208377537835de92efdb5b945a6a71765b74ed2fe22298b42) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7443343
 
 This work originates from the Biodiversity Data Hub working group of the CETAF Covid19 . For more information see https://globalbioticinteractions.org/covid19 .
 
